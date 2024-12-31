@@ -1,0 +1,5 @@
+{
+    "label": "FN Editor",
+    "launch": "launch.sh",
+    "description": "Function Key Editor"
+}
