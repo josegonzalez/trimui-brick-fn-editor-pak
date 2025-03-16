@@ -13,11 +13,6 @@ exec 2>&1
 
 echo "$0" "$@"
 
-architecture=arm
-if uname -m | grep -q '64'; then
-    architecture=arm64
-fi
-
 echo "1" >/tmp/stay_awake
 trap "rm -f /tmp/stay_awake" EXIT INT TERM HUP QUIT
 /usr/trimui/apps/fn_editor/launch.sh
