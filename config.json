@@ -1,5 +1,8 @@
 {
     "label": "FN Editor",
     "launch": "launch.sh",
-    "description": "Function Key Editor"
+    "description": "Function Key Editor",
+    "platforms": [
+        "tg5040"
+    ]
 }
