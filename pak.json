@@ -1,0 +1,13 @@
+{
+    "name": "FN Editor",
+    "type": "TOOL",
+    "description": "Function Key Editor",
+    "author": "josegonzalez",
+    "repo_url": "https://github.com/josegonzalez/minui-fn-editor-pak",
+    "release_filename": "FN.Editor.pak.zip",
+    "platforms": [
+        "tg5040"
+    ],
+    "launch": "launch.sh",
+    "version": "latest"
+}
